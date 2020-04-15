@@ -9,7 +9,7 @@ ul{
     list-style: none;
 }
 .ulbackground{
-    background: rgb(33, 71, 71);
+    background: black;
     padding: 20px;
 }
 li{
@@ -19,7 +19,8 @@ li{
     text-align: center;
 }
 hr{
-    border: 1px solid whitesmoke;
+    border: 1px solid white;
+    width: 50%;
 }
 
 .heading{
@@ -27,10 +28,10 @@ hr{
     padding: 10px;
     background: rgb(33, 71, 71);
     font-size: 27px;
+    text-shadow: 2px 3px black;
 }
 .heading p{
-    color: whitesmoke;
-    text-shadow: 2px 3px black;    
+    color: whitesmoke;        
 }
 .inner{
     padding: 5px;
@@ -40,9 +41,8 @@ hr{
     font-size:35px;
     font-weight:bold;
 }
-
 .countriesbackground{
-    background: rgb(33, 71, 71); 
+    background: black; 
     padding: 20px;  
 }
 
@@ -50,3 +50,20 @@ hr{
     overflow: auto;
     height: 680px;      
 }
+.red{
+    color: red;
+}
+select{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+option{   
+    color: red;
+    background-color: black; 
+    font-size: large; 
+}
+
+
+
+
